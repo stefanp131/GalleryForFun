@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="gallery-app">
+<head>
+    <title>Gallery For Fun</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body ng-controller="main-ctrl">
+    <div id="container" class="container">
+        <hr />
+        <div id="header" class="row">
+
+            <div class="col-md-3">
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="active"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                    <li role="presentation"><a href="#">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="col-md-offset-7 col-md-2">
+                <ul class="nav nav-pills nav-justified">
+                    <li role="presentation" class="active"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <div id="content" class="row">
+            <div>
+                <div class="panel panel-primary">
+                    <div class="panel-body">
+                        Hi Guest!
+                    </div>
+                    <div class="panel-footer">Please sign in!</div>
+                </div>
+                <br />
+
+                <div class="jumbotron">
+                    <h1>Hello, world!</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a laoreet neque. Nullam sagittis ante in magna venenatis, a facilisis erat maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ac elit lacinia, vehicula lacus ut, ornare ipsum. Morbi volutpat sem diam, at sollicitudin purus molestie sit amet. Praesent interdum felis lacus, sed maximus lorem blandit ut. Duis eleifend vel leo in dignissim. Pellentesque feugiat massa magna, vel gravida neque ullamcorper eget. Donec placerat ex viverra, placerat lectus eu, luctus nunc. Integer blandit mi at ante tristique lobortis. Maecenas a molestie urna.
+                        Donec ante nisi, pellentesque eu cursus nec, pharetra eget dolor. Pellentesque cursus aliquet neque, vel euismod massa hendrerit ut. Donec vitae laoreet purus. Integer dignissim libero id nisi pellentesque, ut viverra enim egestas. Nulla congue enim at magna blandit bibendum. Mauris vel dignissim nisi, ut tristique mi. Morbi suscipit quam et porta suscipit. Nam lectus dolor, porttitor ut finibus sit amet, semper non arcu. Fusce ut dictum est, id sodales nunc.
+                </div>
+
+            </div>
+        </div>
+
+        <hr />
+        <div id="footer" class="row">
+            <div class="col-md-offset-5 col-md-3">
+                <span class="label label-primary">Made by Fanu Paravanu {{2015+1}}</span>
+            </div>
+        </div>
+        <hr />
+    </div>
+
+
+
+    <script src="Scripts/Angular/angular.js"></script>
+    <script src="Scripts/Angular/gallery-app.js"></script>
+    <script src="Scripts/Angular/main-ctrl.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</body>
+</html>

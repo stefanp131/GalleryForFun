@@ -1,0 +1,6 @@
+c:\users\stefan\documents\visual studio 2013\Projects\GalleryForFun\GalleryForFun\bin\GalleryForFun.dll.config
+c:\users\stefan\documents\visual studio 2013\Projects\GalleryForFun\GalleryForFun\bin\GalleryForFun.dll
+c:\users\stefan\documents\visual studio 2013\Projects\GalleryForFun\GalleryForFun\bin\GalleryForFun.pdb
+c:\users\stefan\documents\visual studio 2013\Projects\GalleryForFun\GalleryForFun\obj\Debug\GalleryForFun.csprojResolveAssemblyReference.cache
+c:\users\stefan\documents\visual studio 2013\Projects\GalleryForFun\GalleryForFun\obj\Debug\GalleryForFun.dll
+c:\users\stefan\documents\visual studio 2013\Projects\GalleryForFun\GalleryForFun\obj\Debug\GalleryForFun.pdb
